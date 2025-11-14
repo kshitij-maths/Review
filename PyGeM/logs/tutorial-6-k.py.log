@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/raid/kpandey/Kshitij/ITCS/PyGeM/tutorials/tutorial-6-k.py", line 10, in <module>
+    new_mesh_points = ffd(mesh_points)
+  File "/mnt/raid/kpandey/Kshitij/ITCS/PyGeM/pygem/ffd.py", line 608, in __call__
+    src_reference_frame_pts = self.psi(src_pts - self.box_origin)
+ValueError: operands could not be broadcast together with shapes (0,) (3,) 

@@ -1,0 +1,38 @@
+Collecting git+https://github.com/mathLab/Smithers.git
+  Cloning https://github.com/mathLab/Smithers.git to /tmp/pip-req-build-zr0p4xvt
+  Running command git clone --filter=blob:none --quiet https://github.com/mathLab/Smithers.git /tmp/pip-req-build-zr0p4xvt
+  Resolved https://github.com/mathLab/Smithers.git to commit c928e90a3592e39dcc6c88e6aefbe9e8b9b66893
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: future in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from smithers==0.0.1) (1.0.0)
+Requirement already satisfied: numpy in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from smithers==0.0.1) (2.0.2)
+Requirement already satisfied: scipy in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from smithers==0.0.1) (1.13.1)
+Requirement already satisfied: matplotlib in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from smithers==0.0.1) (3.9.4)
+Requirement already satisfied: contourpy>=1.0.1 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (1.3.0)
+Requirement already satisfied: cycler>=0.10 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (4.60.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (1.4.7)
+Requirement already satisfied: packaging>=20.0 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (25.0)
+Requirement already satisfied: pillow>=8 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (11.3.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (3.2.3)
+Requirement already satisfied: python-dateutil>=2.7 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (2.9.0.post0)
+Requirement already satisfied: importlib-resources>=3.2.0 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from matplotlib->smithers==0.0.1) (6.5.2)
+Requirement already satisfied: zipp>=3.1.0 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from importlib-resources>=3.2.0->matplotlib->smithers==0.0.1) (3.23.0)
+Requirement already satisfied: six>=1.5 in /mnt/raid/kpandey/.conda/envs/pygem_cad/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib->smithers==0.0.1) (1.17.0)
+Python Version: 3.9.25 (main, Nov  3 2025, 22:33:05) 
+[GCC 11.2.0]
+Platform: linux
+System: Linux 6.12.0-55.41.1.el10_0.x86_64
+PyGeM version: 2.0.0
+smithers not found. Installing from GitHub...
+Traceback (most recent call last):
+  File "/mnt/raid/kpandey/Kshitij/ITCS/PyGeM/tutorials/tutorial6/tutorial-6-ffd-rbf.py", line 46, in <module>
+    from smithers.io.openfoamhandler import OpenFoamHandler
+ModuleNotFoundError: No module named 'smithers.io.openfoamhandler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/raid/kpandey/Kshitij/ITCS/PyGeM/tutorials/tutorial6/tutorial-6-ffd-rbf.py", line 51, in <module>
+    from smithers.io.openfoamhandler import OpenFoamHandler
+ModuleNotFoundError: No module named 'smithers.io.openfoamhandler'

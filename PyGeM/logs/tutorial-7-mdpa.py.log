@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/mnt/raid/kpandey/Kshitij/ITCS/PyGeM/tutorials/tutorial-7-mdpa.py", line 15, in <module>
+    vedo.settings.embedWindow(backend="k3d", verbose=True)
+AttributeError: 'Settings' object has no attribute 'embedWindow'
